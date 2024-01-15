@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+width: 100%;
+height: 500px;
+background:white;
+
+
+
+}
+.top__banner{
+    width: 100%;
+    height: 80px;
+    background: white;
+    padding: 10px 20px;
+
+}
+.top__items{
+display: flex;
+gap: 100px;
+align-items: center;
+
+
+}
+.searcher{
+    width: 60%;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.all{
+    width: 10%;
+    height: 40%;
+    background:white;
+    display: flex;
+    align-items: center;
+}
+.searcher input{
+    width: 100%;
+    height: 100%;
+}
+.all select{
+   padding: 10px 10px;
+}
+.top__items i{
+    font-size: 12px;
+}
+.top__items h1{
+    background: red;
+    color: white;
+}
+.banner__settings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.set__collection{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding-top: 5px;
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    background: whitesmoke;
+    padding-top: 10px;
+  
+}
+.navbar__collection{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    list-style: none;
+    padding-left: 10px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+.bottom__banner{
+    width: 100%;
+    height: 70px;
+    background: whitesmoke;
+    align-items: center;
+   
+}
+.item__icon{
+    width: 100%;
+    height: 80px;
+   
+}
+.wrapper__icon{
+    display: flex;
+    gap: 50px;
+    margin-left: 30%;
+}
+.wr__i{
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(190, 174, 174);
+    font-size: 35px;
+    padding: 5px 7px;
+
+  
+}
+.wr__i p{
+    font-size: 10px;
+    padding-top: 5px;
+}
+.fullfiling{
+    width: 80%;
+    height: 500px;
+   
+    margin: auto;
+}
+.wrapper__box{
+    display: flex;
+    background: whitesmoke;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background: white;
+    margin-top: 40px;
+   
+    margin-left: 5px;
+}
+.box img{
+    width: 100%;
+    height:200px;
+}
+.box h1{
+    padding: 10px 10px;
+}
+.box p{
+    padding-bottom: 20px;
+}
+.btn{
+    padding: 10px 15px;
+    margin: 10px;
+}
+.fullfiling2{
+    width: 80%;
+    height: 400px;
+    
+    margin: auto;
+    display: flex;
+    
+}
+.box1{
+    width: 34%;
+    height: 100%;
+    border: 1px solid rgb(214, 227, 215);
+}
+.box1 img{
+    width: 100%;
+    height: 200px;
+}
+.box1 h1{
+    padding: 5px;
+}
+.box1 p{
+    padding: 5px;
+}
+.box1 button{
+    margin-top: 70px;
+}
+.rewards{
+    width: 80%;
+    height: 300px;
+
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+
+}
+.wrap,
+.wrap__text{
+    width: 50%;
+    height: 100%;
+   
+    background: whitesmoke;
+}
+.wrap img{
+    width: 100%;
+    height: 100%;
+
+}
+.wrap__text h1{
+    padding: 50px 30px;
+    padding-bottom: 10px;
+
+}
+.wrap__text p{
+    padding-left: 30px;
+}
+.btm{
+    padding: 15px 20px;
+    margin: 30px;
+    border: 1px solid black;
+    background: transparent;
+}
+
+
